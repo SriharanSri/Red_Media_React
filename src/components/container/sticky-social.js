@@ -3,12 +3,15 @@ import {
   faDiscord,
   faTelegram,
   faTwitter,
+  faInstagram,
+  faFacebook,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
 const socialIcons = [
-  { icon: faDiscord, url: "https://discord.com/invite/GuardianLink" },
-  { icon: faTelegram, url: "https://t.me/guardiannft" },
-  { icon: faTwitter, url: "https://twitter.com/Guardian_NFT" },
+  { icon: faInstagram, url: "https://discord.com/invite/GuardianLink" },
+  { icon: faFacebook, url: "https://t.me/guardiannft" },
+  { icon: faWhatsapp, url: "https://wa.me/+916380194201" },
 ];
 export const StickySocial = () => {
   return (
