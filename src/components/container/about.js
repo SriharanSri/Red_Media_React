@@ -33,7 +33,7 @@ function About() {
         <>
           <Header />
           <Info />
-          <Roadmap />
+          {/* <Roadmap /> */}
           <Ourteam />
           <OurInvestors />
           <Invite />
