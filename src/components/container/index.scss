@@ -313,12 +313,24 @@
   // opacity: 0;
   // animation-name: frontloader1;
   // animation-duration: 5s;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
   animation-direction: normal;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   // animation-delay: 1s;
   animation-timing-function: ease-out;
-
+  // font-size: 100%;
+.logo_text{
+  font-size: 2rem;
+  background: -webkit-linear-gradient(red, #333);
+  font-weight: bolder;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: none;
+  margin-top: 2rem;
+}
   // @keyframes frontloader1{
   //   0% {
   //     opacity: 1;
